@@ -1,0 +1,70 @@
+{% include "header.html" %}
+<section class="py-5 text-center container">
+    <div class="row py-lg-5">
+        <div class="col-lg-6 col-md-8 mx-auto"><h1 class="fw-light">Projects</h1>
+            <p class="lead text-body-secondary" style = "font-size: x-large">I'm Sowmy, a Python developer who turns repetitive tasks into smart automations. With a background in marketing and SEO, I build tools that save time and actually serve the people using them.</p>
+            <p><a href="{{url_for('about')}}" class="btn btn-primary my-2">About</a> <a href="#"
+                                                                                   class="btn btn-secondary my-2">Articles</a></p></div>
+    </div>
+</section>
+
+<div class="album py-5 bg-body-tertiary">
+    <div class="container">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+            <div class="col">
+                <div class="card shadow-sm">
+                    <img src = "https://tse1.mm.bing.net/th/id/OIP.PhlWl0RNKHICM3NVu27hygHaFE?r=0&pid=Api&h=220&P=0" alt = "web automation" />
+                    <div class="card-body"><p class="card-text"> <b> Project </b>: Class Booking Automation
+                        Python and Selenium script that logs in and books classes automatically,
+                        with no manual clicking.</p>
+                        <p>
+                        <b>Tech</b>: Python · Selenium WebDriver </p>
+                        <p><b>Result</b>: Turns a daily manual task into a hands-off process.
+                        </p>
+
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                            </div>
+                            <small class="text-body-secondary">9 mins</small></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card shadow-sm">
+                    <img src = "https://tse3.mm.bing.net/th/id/OIP.ttOHkK_6sufP3VF_rIriBAHaEO?r=0&pid=Api&h=220&P=0" alt = "Flight Deal search" height = "290 px" />
+
+                    <div class="card-body"><p class="card-text"><b> Project </b>: Flight Deal Finder
+                       Searches for cheap flights using live API data and stores the results in a spreadsheet.</p>
+                        <p>
+                        <b>Tech</b>:Python · Alpha Vantage API · Sheety API · .env for secure keys </p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                            </div>
+                            <small class="text-body-secondary">9 mins</small></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card shadow-sm">
+                    <img src = "https://tse1.mm.bing.net/th/id/OIP.6X3BknImtxEjRztLWn6oOgHaEo?r=0&pid=Api&h=220&P=0
+                        " alt = "Flight Deal search" height = "290 px" />
+                    <div class="card-body"><p class="card-text"><b> Project </b>: 18+ Boutique Website
+                        A boutique storefront with an age-verification gate, product showcase, and mobile-friendly layout.</p>
+                        <p>
+                        <b>Tech</b>: HTML · CSS · Bootstrap · JavaScript (add Flask or Python if you used it) </p>
+                        <p><b>Result</b>:Age-gate popup, responsive design, clean product pages.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                            </div>
+                            <small class="text-body-secondary">9 mins</small></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% include 'footer.html' %}
